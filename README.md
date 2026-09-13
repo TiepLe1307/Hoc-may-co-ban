@@ -17,21 +17,21 @@
 │   └── model.py           # Xây dựng mô hình Random Forest Classifier (Ensemble Learning)
 └── training/
     └── train.py           # Huấn luyện mô hình, đánh giá độ chính xác và thử nghiệm dự đoán
-
+```
 ## 2. Cài Đặt Thư Viện
 
 Trước khi chạy chương trình, hãy đảm bảo bạn đã cài đặt các thư viện cần thiết bằng lệnh:
 
 ```bash
 pip install scikit-learn pandas numpy
-
+```
 ## 3. Hướng Dẫn Chạy Chương Trình
 
 Mở cửa sổ Terminal / Command Prompt tại thư mục gốc của dự án và chạy câu lệnh sau:
 
 ```bash
 python training/train.py
-
+```
 ## 4. Kết Quả Thực Nghiệm
 
 - **Bộ dữ liệu:** Iris Dataset (150 mẫu, 4 thuộc tính đặc trưng)
